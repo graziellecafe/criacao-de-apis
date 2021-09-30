@@ -1,0 +1,24 @@
+{
+  "name": "api-typescript",
+  "version": "1.0.0",
+  "description": "Criação de uma API utilizando TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./api.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graziellecafe/criacao-de-apis/tree/main/api-typescript"
+  },
+  "keywords": [
+    "api",
+    "typescript"
+  ],
+  "author": "Grazielle Café",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "Criação de uma API utilizando a linguagem JavaScript",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
