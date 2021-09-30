@@ -1,0 +1,22 @@
+{
+  "name": "api-javascript",
+  "version": "1.0.0",
+  "description": "Criação de uma API utilizando a linguagem JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graziellecafe/criacao-de-apis/tree/main/api-javascript"
+  },
+  "keywords": [
+    "api",
+    "javascript"
+  ],
+  "author": "Grazielle Café",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
