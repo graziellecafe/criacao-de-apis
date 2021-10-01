@@ -2,9 +2,11 @@
   "name": "api-typescript",
   "version": "1.0.0",
   "description": "Criação de uma API utilizando TypeScript",
-  "main": "index.js",
+  "main": "dist/api.js",
+  "types": "dist/api.d.ts",
   "scripts": {
-    "start": "nodemon ./api.ts"
+    "start": "ts-node api.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,12 @@
   "author": "Grazielle Café",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "nodemon": "^2.0.13",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

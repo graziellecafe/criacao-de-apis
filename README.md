@@ -53,3 +53,18 @@ npm install -g nodemon
 ```
 
 5. Inserindo em **scripts** o "start": nodemon 
+
+6. Instalar localmente a dependência no computador do TypeScript, gerando um arquivo de configuração para o TypeScript chamado de tsconfig.json
+```
+npx tsc --init
+```
+
+7. Script **start**
+Inicializa a aplicação 
+```
+npm start
+```
+
+8. Script **build**
+Vai converter o nosso arquivo TypeScript em JavaScript
+
